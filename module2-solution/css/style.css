@@ -88,6 +88,7 @@ h1, h2, h3, h4, h6, p, li {
 h1 {
 	/* 16px * 3em = 48px */
 	font-size: 3em;
+	background-color: red;
 }
 
 h2 {
