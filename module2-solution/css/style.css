@@ -144,6 +144,7 @@ p, li {
 	border: 1px solid black;
 	float: left;
 	position: relative;
+	
 }
 
 .col-5 {
@@ -189,12 +190,31 @@ p, li {
 	border: 1px solid red;
 	top: 0;
 	right: 0;
+	width: 35%;
 }
 
 .title > h3 {
 	overflow: auto;
+	text-align: center;
 }
 
+.title + .content {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#one h3 {
+	background-color: pink;
+}
+
+#two h3 {
+	background-color: red;
+	color: white;
+}
+
+#three h3 {
+	background: yellow;
+}
 /*
 	========================================
 		MEDIA QUERY
@@ -205,7 +225,7 @@ p, li {
 /* Desktop */
 @media (min-width: 992px) {
   body {
-  	background-color: yellow; 
+  	
   }
 
   .container {
@@ -217,7 +237,7 @@ p, li {
 /* Tablet */
 @media (min-width: 768px) and (max-width: 991px) {
  body {
-  	background-color: red; 
+  	 
   }
 
   #one {
@@ -231,12 +251,16 @@ p, li {
   #three {
   	width: 100%;
   }
+
+  #three > .title {
+  	width: 17.5%;
+  }
 }
 
 /* Phone */
 @media (max-width: 767px) {
   body {
-  	background-color: blue; 
+  	 
   }
 
   #one {
