@@ -88,7 +88,8 @@ h1, h2, h3, h4, h6, p, li {
 h1 {
 	/* 16px * 3em = 48px */
 	font-size: 3em;
-	background-color: red;
+	text-align: center;
+	line-height: 1.5;
 }
 
 h2 {
@@ -139,11 +140,12 @@ p, li {
 }
 
 .col-4 {
-	width: 33.3333%;
-	background-color: teal;
-	border: 1px solid black;
+	width: 28.333%;
+	background-color: grey;
+	border: 3px solid black;
 	float: left;
 	position: relative;
+	margin: 2.5%;
 	
 }
 
@@ -187,20 +189,21 @@ p, li {
 
 .title {
 	position: absolute;
-	border: 1px solid red;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
 	top: 0;
 	right: 0;
 	width: 35%;
 }
 
 .title > h3 {
-	overflow: auto;
 	text-align: center;
 }
 
 .title + .content {
 	text-align: center;
 	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 #one h3 {
@@ -229,7 +232,7 @@ p, li {
   }
 
   .container {
-  	max-width: 992px;
+  	max-width: 100%;
   	margin: 0 auto;
   }
 }
@@ -241,15 +244,15 @@ p, li {
   }
 
   #one {
-  	width: 50%;
+  	width: 45%;
   } 
 
   #two {
-  	width: 50%;
+  	width: 45%;
   }
 
   #three {
-  	width: 100%;
+  	width: 95%;
   }
 
   #three > .title {
@@ -264,14 +267,14 @@ p, li {
   }
 
   #one {
-  	width: 100%;
+  	width: 95%;
   } 
 
   #two {
-  	width: 100%;
+  	width: 95%;
   }
 
   #three {
-  	width: 100%;
+  	width: 95%;
   }
 }
