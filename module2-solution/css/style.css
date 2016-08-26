@@ -139,7 +139,11 @@ p, li {
 }
 
 .col-4 {
-	width: 33.3%;
+	width: 33.3333%;
+	background-color: teal;
+	border: 1px solid black;
+	float: left;
+	position: relative;
 }
 
 .col-5 {
@@ -176,6 +180,23 @@ p, li {
 
 /*
 	========================================
+		COMPONENTS
+	========================================
+*/
+
+.title {
+	position: absolute;
+	border: 1px solid red;
+	top: 0;
+	right: 0;
+}
+
+.title > h3 {
+	overflow: auto;
+}
+
+/*
+	========================================
 		MEDIA QUERY
 	========================================
 */
@@ -186,18 +207,47 @@ p, li {
   body {
   	background-color: yellow; 
   }
+
+  .container {
+  	max-width: 992px;
+  	margin: 0 auto;
+  }
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 991px) {
  body {
   	background-color: red; 
+  }
+
+  #one {
+  	width: 50%;
   } 
+
+  #two {
+  	width: 50%;
+  }
+
+  #three {
+  	width: 100%;
+  }
 }
 
 /* Phone */
 @media (max-width: 767px) {
   body {
   	background-color: blue; 
+  }
+
+  #one {
+  	width: 100%;
+  } 
+
+  #two {
+  	width: 100%;
+  }
+
+  #three {
+  	width: 100%;
   }
 }
