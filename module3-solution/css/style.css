@@ -1,0 +1,42 @@
+body {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #61122f;
+	font-family: Oxigen, sans-serif;
+}
+
+/*
+	========================================
+		COMPONENTS
+	========================================
+*/
+
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+
+/*
+	========================================
+		MEDIA QUERY
+	========================================
+*/
+
+
+/* Desktop */
+@media (min-width: 992px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Phone */
+@media (max-width: 767px) {
+
+}
